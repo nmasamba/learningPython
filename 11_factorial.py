@@ -8,7 +8,8 @@ Based on the lessons from Codecademy at https://www.codecademy.com/learn/python
 This Python program is an example of modularity, encapsulation and algorithmic thinking.
 It is simply a function that takes a number x as input. It will then evaluate that number
 and return that number's factorial. To calculate the factorial of a non-negative integer x, 
-just multiply all the integers from 1 through x. 
+just multiply all the integers from 1 through x. This makes use of a technique called
+recursion, where a function calls itself until a termination condition is encountered.
 
 Example input and output:
 factorial(4) would equal 4 * 3 * 2 * 1, which is 24.
