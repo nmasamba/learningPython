@@ -13,6 +13,11 @@ write data to the file — until it's sure you're done writing. One way to do th
 to close the file. If you write to a file without closing, the data won't make it 
 to the target file.
 
+Note: you should have a file called text.txt in the same folder for this to work. 
+
+As an exercise, try reading the data without closing a file handler and see what happens.
+Now close all the I/O file handlers and watch the data come through as it should.
+
 """
 
 # Open the file for reading
