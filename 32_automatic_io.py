@@ -19,9 +19,12 @@ The syntax looks like this:
 with open("file", "mode") as variable:
     # Read or write to the file
 
-Check out the example below. Note that we don't explicitly close() our file, and 
+Check out the example below. We don't explicitly close() our file, and 
 remember that if we don't close a file, our data will get stuck in the buffer. 
 Here the file closing is done implicitly.
+
+NB: This example assumes there is a file called text.txt in the root directory
+you're working from. If not, specify the path in open() below.
 
 """
 
